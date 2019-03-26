@@ -1,0 +1,192 @@
+body{
+	background-color: #ece8e3;
+	margin: 0 !important;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+.wrapper{
+	width: 100%;
+}
+
+.header{
+	width: 100%;
+}
+
+.logo{
+	padding: 30px 0;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 48px;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+}
+
+.nav{
+	width: 100%;
+	padding: 10px 0;
+	background-color: #253e44;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 1px solid #7a6955;
+	border-bottom: 1px solid #7a6955;
+}
+
+.menuElement{
+	padding: 0;
+	margin: 0;
+	height: 35px;
+	font-size: 18px;
+	line-height: 200%;
+	
+}
+
+ol {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	height: 35px;
+	font-size: 18px;
+	line-height: 200%;
+	display: inline-block;
+}
+
+ol a {
+	color: #ddc9a8;
+	display: block;
+	text-decoration: none;
+}
+
+ol > li {
+	float: left;
+	width: 150px;
+	height: 40px;
+	border-right: 1px dashed #ddc9a8;
+}
+
+ol > li:hover{
+	background-color: #364f55;
+}
+
+ol > li:first-child{
+	border-left: 1px dashed #ddc9a8;
+}
+
+ol > li > ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+}
+
+ol > li:hover > ul {
+	display: block;
+}
+
+ol > li > ul > li {
+	background-color:  #364f55;
+	position: relative;
+	z-index: 100;
+	border-top: 1px dashed #ddc9a8;
+}
+
+ol > li > ul > li:hover{
+	background-color: #7a6955;
+}
+
+
+.content{
+	background-color: #364f55;
+	color: #ddc9a8;
+	width: 1000px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+}
+
+.text{
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+#form{
+		background-color: #364f55;
+    width: 1000px;
+    box-sizing: border-box;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.formColumn{
+		text-align: right;
+		float: left;
+		width: 50%;
+    color: #ddc9a8;
+		font-size: 16px;
+		box-sizing: border-box;
+		padding: 5px;
+}
+
+.loginLabel{
+		text-align: center;
+		width: 100%;
+    color: #ddc9a8;
+		font-size: 16px;
+		box-sizing: border-box;
+		padding: 5px;
+}
+
+.loginInput{
+		
+}
+
+.inputRow{
+		text-align: left;
+		width: 50%;
+		float: left;
+}
+
+input[type=text],input[type=password]{	
+	width: 50%;
+	box-sizing: border-box;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 16px;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+
+input[type=submit]{
+	background-color: #c1736a;
+    font-size: 16px;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
