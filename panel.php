@@ -53,12 +53,9 @@ if (!isset($_SESSION['logged'])) {
             <div style="clear: both;"></div>
         </div>
         <div class="content">
-            <?if(isset($message)){
-                echo $message;
-                } ?>
             <div class="text">
                 Moje zapytania:
-                <table id="requesttable" class="table table-bordered table-striped">
+                <table style="font-family: arial, sans-serif; border-collapse: collapse; width: 100%;">
                     <tr>
                         <th>Rok produkcji samochodu</th>
                         <th>Marka samochodu</th>

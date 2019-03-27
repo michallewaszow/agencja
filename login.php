@@ -59,13 +59,15 @@ if(isset($_SESSION['logged'])){
                     }
                 ?>
                 <form action="loginscript.php" method="post">
+                    <div id="loginForm">
                     <div class="loginLabel">Login</div>
                     <div class="loginInput"><input type="text" name="login"></div>
                     <br />
                     <div class="loginLabel">Hasło</div>
                     <div class="loginInput"><input type="password" name="password"></div>
                     <br />
-					<input type="submit" value="Zaloguj się">
+                    <input type="submit" value="Zaloguj się">
+                    </div>
 				</form>
 				<form action="registration.php">
 					<input type="submit" value="Utwórz konto">

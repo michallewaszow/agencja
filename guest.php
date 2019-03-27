@@ -12,8 +12,7 @@
 	<meta charset="utf-8" />
 	<title>Internetowa multiagencja ubezpieczeniowa</title>
 	<meta name="description" content="Agencja zajmująca się sprzedażą ubezpieczeń" />
-	<meta name="keywords"
-		content="ubezpieczenia komunikacyjne, sprzedaż ubezpieczeń, OC, AC, internetowy kalkulator ubezpieczeń" />
+	<meta name="keywords" content="ubezpieczenia komunikacyjne, sprzedaż ubezpieczeń, OC, AC, internetowy kalkulator ubezpieczeń" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
